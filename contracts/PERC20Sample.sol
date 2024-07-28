@@ -40,7 +40,7 @@ contract PERC20Sample is PERC20 {
         return _allowances[owner][spender];
     }
 
-    function mint100tokens() public {
-        _mint(msg.sender, 100*10**18);
+	function mint1000tokens() public {
+        _mint(msg.sender,1000*10**18);
     }
 }
